@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/github.io/Expenses-Chart-Component/static/css/main.8d11935a.css",
+    "main.js": "/github.io/Expenses-Chart-Component/static/js/main.75ea04b8.js",
+    "index.html": "/github.io/Expenses-Chart-Component/index.html",
+    "static/media/logo.svg": "/github.io/Expenses-Chart-Component/static/media/logo.99d5b9138a1a64cc6858cdac9a9d3bd4.svg",
+    "main.8d11935a.css.map": "/github.io/Expenses-Chart-Component/static/css/main.8d11935a.css.map",
+    "main.75ea04b8.js.map": "/github.io/Expenses-Chart-Component/static/js/main.75ea04b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d11935a.css",
+    "static/js/main.75ea04b8.js"
+  ]
+}
