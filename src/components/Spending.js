@@ -4,10 +4,10 @@ import { useState, useEffect} from "react";
 import Card from "./UI/Card";
 import ExpensesChart from "./ExpensesChart";
 
-import classes from "./Spending.module.scss";
+import ExpenseData from '../data.json'; 
+import classes from "../Css/Spending.module.css";
 
 const Spending = () => {
-  const [expensesData, setExpensesData] = useState([]);
   const [totalExpense, setTotalExpense] = useState();
 
   const totalExpenses = (data) => {
@@ -22,24 +22,13 @@ const Spending = () => {
   };
 
   useEffect(() => {
-    const getData = () => {
-        fetch("data.json")
-          .then(function (response) {
-            return response.json();
-          })
-          .then(function (data) {
-            setExpensesData(data);
-            setTotalExpense(totalExpenses(data));
-          });
-      };
-
-    getData();
+    setTotalExpense(totalExpenses(ExpenseData))
   }, []);
 
   return (
     <Card bgColor="hsl(33, 100%, 98%)">
       <h1 className={classes.title}>Spending - Last 7 days</h1>
-      <ExpensesChart expenses={expensesData} />
+      <ExpensesChart expenses={ExpenseData} />
       <div className={classes.break} />
       <div className={classes.monthSummary}>
         <div>

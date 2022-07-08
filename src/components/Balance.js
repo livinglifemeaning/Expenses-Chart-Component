@@ -1,6 +1,6 @@
 import Card from "./UI/Card";
 import logo from "../assets/logo.svg";
-import classes from "./Balance.module.scss";
+import classes from "../Css/Balance.module.css";
 const Balance = () => {
   return (
     <Card bgColor="hsl(10, 79%, 65%)">
