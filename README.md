@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/livinglifemeaning/Expenses-Chart-Component/
+- Solution URL: https://github.com/livinglifemeaning/Expenses-Chart-Component/tree/master
 - Live Site URL: https://livinglifemeaning.github.io/Expenses-Chart-Component/
 
 ### Built with
