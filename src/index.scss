@@ -1,0 +1,33 @@
+@import './variables.scss';
+
+*{
+ box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main{
+  height: 100vh; 
+  width: 100vw; 
+  background-color: $bg-color; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.container{
+  display: flex; 
+  flex-direction: column; 
+  gap: 1rem; 
+  margin: 1rem; 
+}
